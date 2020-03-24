@@ -1,0 +1,75 @@
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    height: 70px;
+    background-color: 
+}
+​
+#mainNavbar a {
+    color: white; !important
+    font-size: medium !important;
+    float: left;
+}
+​
+#mainNavbar .nav-link {
+  color: black;
+}
+​
+.navbar.scrolled {
+    background: white;
+    transition: background 500ms;
+}
+​
+.dropdown-item:hover {
+    background-color: rgb(155, 188, 226);
+}
+.card{
+  with: 5px;
+}
+
+card-img{
+  width:8rem;
+  height:8rem;
+  position-bottom-left;
+  float:left;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("https://www.charlotteobserver.com/news/local/7al885/picture212268309/alternates/FREE_1140/IMG_charlotte_skyline.JP_2_1_1V7DJ3KN");
+  height: 50px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#about {
+  position: absolute;
+  margin-bottom: 20px;
+  width: auto;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  background-color: #ead4d2;
+  border:;
+}
+#founders {
+  display:flex;
+  justify-content:space-between;
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  font-size: 12px;
+}
+#managers {
+  display:flex;
+  justify-content:space-between;
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  font-size: 12px;
+}
+p{
+  font-size: 12px;
+}
